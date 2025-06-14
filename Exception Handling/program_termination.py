@@ -7,3 +7,14 @@ if val == 0:
         print("Error occured. Please try again witha different input")
 elif val == 1:
     raise SystemExit("Closing the application.")
+
+
+# Method 2
+## import sys
+## if val == 0:
+#    try:
+#        val_1  = val
+#    except:
+#       print("Error occured. Please try again witha different input")
+# elif val == 1:
+#    raise SystemExit("Closing the application.")
